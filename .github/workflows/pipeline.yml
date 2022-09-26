@@ -39,7 +39,7 @@ jobs:
         if: always()
         run: mvn cluecumber-report:reporting
 
-      - name: Arquivar relatorio
+      - name: Arquivar o relatorio
         if: always()
         uses: actions/upload-artifact@v3
         with:
